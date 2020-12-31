@@ -3,10 +3,10 @@ import struct
 import time
 import keyboard
 
-#Due to a serious problem connecting and checking this in the ssh Server , this is our final code.
+#Due to a serious problem connecting and checking the project in the ssh Server , this is our final code.
 # we want to note that  We spent a lot of time and thinking in trying to make this code perfect, we did not succeed but we are proud of the outcome
-#I believe it shuold be noted that one of the team mate is 7 month  pregnent ,and had some real pain during the early evening
-#therefore only one teammate was able to work on the assignment for most of the time(email was sent to Yossi about it)
+#I believe it shuold be noted that one of the team mates is 7 months  pregnent ,and had some real pain during the early evening
+#therefore only one teammate was able to work on the assignment for most of the time (an email was sent to Yossi about it)
 # thank you in advance
 
 # --------------------waiting to connect------------stage 1
