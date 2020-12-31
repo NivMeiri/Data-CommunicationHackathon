@@ -49,7 +49,6 @@ while True:
     try:
         s.sendall(str.encode('this team group number : '+str(group_num)+" \n"))
         data = (s.recv(1024))
-        group_num += 1
         if data:
             print(data)
             print("Welcome to Keyboard Spamming Battle Royale\n Group "+str(group_num))
@@ -68,7 +67,7 @@ while True:
                 s.sendall(str.encode(str(len(char))))
                 if group_num==2:
                     s.sendall(str.encode("gameover"))
-
+                group_num += 1
             except Exception :
                     print("server disconnected.......! ")
     except:
